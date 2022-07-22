@@ -6,6 +6,6 @@ st.title("Language Translator")
 
 text = st.text_input("Enter a text")
 
-translate = translator.translate(text, lang_tgt='es')
+translate = translator.translate(text, lang_tgt='km')
 
 st.write(translate)
